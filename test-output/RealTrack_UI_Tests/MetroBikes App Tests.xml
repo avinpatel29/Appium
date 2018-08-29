@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-UMJ7NR2" name="LHNav.LHNavLinksTests" tests="11" failures="0" timestamp="8 Aug 2018 09:50:17 GMT" time="109.762" errors="0">
+  <testcase name="@BeforeClass launchTheApp" time="0.0" classname="LHNav.LHNavLinksTests">
+    <failure type="java.lang.Exception" message="Appium server not started">
+      <![CDATA[java.lang.Exception: Appium server not started
+	at actionEngines.DriverBase.LaunchApp(DriverBase.java:176)
+	at LHNav.LHNavLinksTests.launchTheApp(LHNavLinksTests.java:15)
+... Removed 25 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterClass closeTheApp" time="0.0" classname="LHNav.LHNavLinksTests">
+    <skipped/>
+  </testcase>
+  <testcase name="initiateDriver" time="13.723" classname="users.NewUserTests"/>
+  <testcase name="userRegistrationFromAPK" time="66.345" classname="users.NewUserTests"/>
+  <testcase name="verifyLHNavLinksArePresent" time="0.003" classname="LHNav.LHNavLinksTests">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyLHNavLinkTexts" time="0.002" classname="LHNav.LHNavLinksTests">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyWalletSection" time="0.004" classname="LHNav.LHNavLinksTests">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyTripsSection" time="0.001" classname="LHNav.LHNavLinksTests">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyKYCSection" time="0.001" classname="LHNav.LHNavLinksTests">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyNotificationSection" time="0.001" classname="LHNav.LHNavLinksTests">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyRateTheAppSection" time="0.006" classname="LHNav.LHNavLinksTests">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyReferAndEarnSection" time="0.001" classname="LHNav.LHNavLinksTests">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyCallUsSection" time="0.0" classname="LHNav.LHNavLinksTests">
+    <skipped/>
+  </testcase>
+</testsuite>

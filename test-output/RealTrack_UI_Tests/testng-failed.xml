@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RealTrack_UI_Tests]">
+  <test name="MetroBikes App Tests(failed)" preserve-order="false">
+    <classes>
+      <class name="LHNav.LHNavLinksTests">
+        <methods>
+          <include name="launchTheApp"/>
+          <include name="verifyRateTheAppSection"/>
+          <include name="verifyCallUsSection"/>
+          <include name="verifyWalletSection"/>
+          <include name="verifyNotificationSection"/>
+          <include name="verifyKYCSection"/>
+          <include name="verifyReferAndEarnSection"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="verifyTripsSection"/>
+          <include name="verifyLHNavLinksArePresent"/>
+          <include name="verifyLHNavLinkTexts"/>
+        </methods>
+      </class>
+      <class name="users.NewUserTests">
+        <methods>
+          <include name="closeTheApp"/>
+          <include name="takeScreenShotOnFailure"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

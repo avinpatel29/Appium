@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RealTrack_UI_Tests">
+	<!-- <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.ge.utilities.ExtentReporterNG" />
+	</listeners> -->
+	<test name="MetroBikes App Tests" preserve-order="true">
+		<classes>
+		 <class name="users.NewUserTests" />
+		 <class name="LHNav.LHNavLinksTests" />
+		 <class name="shortRides.ShortRidesTests" />
+		</classes> 
+	</test> 
+</suite>
